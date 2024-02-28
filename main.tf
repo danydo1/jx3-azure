@@ -12,8 +12,8 @@ module "cluster" {
   cluster_version                      = var.cluster_version
   enable_log_analytics                 = var.enable_log_analytics
   jx_bot_token                         = var.jx_bot_token
-  jx_git_url                           = var.jx_git_url
-  jx_bot_username                      = var.jx_bot_username
+  jx_git_url                           = "https://github.com/danydo1/jx3-azure-vault.git"
+  jx_bot_username                      = "bot_user"
   server_side_apply_enabled            = var.server_side_apply_enabled
   key_vault_enabled                    = var.key_vault_enabled
   key_vault_name                       = var.key_vault_name
